@@ -4,7 +4,7 @@
 -- Credit Lk Team Vip --
 
 local fov = 90
-local maxDistance = 600
+local maxDistance = 700
 local maxTransparency = 0.1
 local teamCheck = true
 local wallCheck = true
