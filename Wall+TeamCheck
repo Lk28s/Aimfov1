@@ -3,8 +3,8 @@
 ]]
 -- Credit Lk Team Vip --
 
-local fov = 80
-local maxDistance = 400
+local fov = 90
+local maxDistance = 600
 local maxTransparency = 0.1
 local teamCheck = true
 local wallCheck = true
@@ -17,7 +17,7 @@ local Cam = game.Workspace.CurrentCamera
 
 local FOVring = Drawing.new("Circle")
 FOVring.Visible = true
-FOVring.Thickness = 2
+FOVring.Thickness = 1
 FOVring.Color = Color3.fromRGB(128, 0, 128)
 FOVring.Filled = false
 FOVring.Radius = fov
